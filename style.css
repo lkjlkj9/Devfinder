@@ -45,7 +45,6 @@ header {
 
 .themebutton img {
   width: 20px;
-
 }
 
 form {
@@ -55,6 +54,7 @@ form {
   background-color: white;
   padding: 10px;
   margin: 40px 0;
+  box-shadow: 0 5px 10px rgba(75, 106, 155, 0.2);
 }
 
 input {
@@ -89,6 +89,7 @@ main {
   display: flex;
   padding: 48px;
   align-items: flex-start;
+  box-shadow: 0 10px 20px rgba(75, 106, 155, 0.3);
 }
 
 .Avatar {
@@ -170,6 +171,7 @@ h2 {
 
 i {
   color: rgba(20, 29, 47, 1);
+  height: 20px;
 }
 .fa-twitter {
   color: rgba(105, 124, 154, 1);
@@ -179,4 +181,8 @@ i {
   font-size: 15px;
   color: rgba(75, 106, 155, 1);
   text-decoration: none;
+}
+
+td img {
+  width: 20px;
 }
